@@ -1,7 +1,7 @@
 body {
     background-color: #D5E1EF;
     margin: 0;
-    font-family: Outfit;
+    font-family: Outfit, sans-serif;
 }
 
 .flexy {
@@ -12,6 +12,7 @@ body {
 }
 
 .contenedor-qr {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     text-align: center;
